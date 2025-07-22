@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "765457884894",
+    "firebase_url": "https://nexlock-5f286-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "nexlock-5f286",
+    "storage_bucket": "nexlock-5f286.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765457884894:android:6bc1068eb60f3651d9044f",
+        "android_client_info": {
+          "package_name": "com.nexlock.nexlock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDurHVaiTQf-2Xc1fCZgbU8sQgEI49QYpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
