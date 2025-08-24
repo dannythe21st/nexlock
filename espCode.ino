@@ -18,8 +18,8 @@ int state = LOW;             // by default, no motion detected
 int val = 0;                 // variable to store the sensor status (value)
 
 
-#define API_KEY "AIzaSyDyQ4_fUtDUO8t760uCzkYBk33lyAj32Mc"
-#define DATABASE_URL "https://nexlock-5f286-default-rtdb.europe-west1.firebasedatabase.app/";
+#define API_KEY "XXXX"
+#define DATABASE_URL "XXXX";
 
 MFRC522 mfrc522(SDA_PIN, RST_PIN);
 
@@ -35,13 +35,8 @@ Servo servo;
 
 String validCards[MAX_KEYS]={};
 
-
-//const char* ssid = "bitlogiclx";
-//const char* password = "OMeuLindoFilho2002!";
-//const char* ssid = "NOS-9712";
-//const char* password = "Rc02021976";
-const char* ssid = "Redmi 10 2022";
-const char* password = "rms.costa349!12";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 FirebaseData fbdo;
 FirebaseAuth auth;
